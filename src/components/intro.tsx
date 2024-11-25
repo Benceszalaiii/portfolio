@@ -22,7 +22,7 @@ export default function Intro({ className }: { className?: string }) {
           Digital Alchemist & Code Connoisseur
         </p>
       </div>
-      <nav className="flex flex-row gap-4 w-full justify-center">
+      <nav className="flex flex-row md:gap-4 w-full justify-center gap-1">
         <Button
             className="font-semibold font-inter tracking-wider hover:text-yellow-500 transition-colors duration-500"
           variant={"linkHover2"}
