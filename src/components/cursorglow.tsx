@@ -13,7 +13,7 @@ export default function CursorGlow() {
   useEffect(setCursorDefault, [])
   return (
     <div
-      className={`fixed left-0 top-0 -z-10 h-full w-full overflow-hidden`}
+      className={`fixed left-0 -z-10 top-0 h-full w-full overflow-hidden`}
     >
       <motion.div
         hidden={isMobile || (mousePos.x === 0 && mousePos.y === 0)}
